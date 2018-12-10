@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39673" started-at="2018-11-22T06:43:16Z" finished-at="2018-11-22T06:43:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39673" started-at="2018-11-22T06:43:16Z" finished-at="2018-11-22T06:43:56Z">
+      <class name="TestNG.LoginScript">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:TestNG.LoginScript@1ea3742]" name="openApplication" is-config="true" duration-ms="19592" started-at="2018-11-22T12:13:16Z" finished-at="2018-11-22T12:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestNG.LoginScript@1ea3742]" name="loginTest" duration-ms="19602" started-at="2018-11-22T12:13:36Z" finished-at="2018-11-22T12:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:TestNG.LoginScript@1ea3742]" name="closeApplication" is-config="true" duration-ms="439" started-at="2018-11-22T12:13:56Z" finished-at="2018-11-22T12:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginScript.loginTest()[pri:0, instance:TestNG.LoginScript@1ea3742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- TestNG.LoginScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
